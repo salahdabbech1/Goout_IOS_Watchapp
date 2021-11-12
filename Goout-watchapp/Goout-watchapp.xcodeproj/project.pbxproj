@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7E9E1F273E61E7009794EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7E9E1E273E61E7009794EE /* AppDelegate.swift */; };
+		3C7E9E21273E61E7009794EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7E9E20273E61E7009794EE /* SceneDelegate.swift */; };
+		3C7E9E23273E61E7009794EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7E9E22273E61E7009794EE /* ViewController.swift */; };
+		3C7E9E26273E61E7009794EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7E9E24273E61E7009794EE /* Main.storyboard */; };
+		3C7E9E28273E61ED009794EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7E9E27273E61ED009794EE /* Assets.xcassets */; };
+		3C7E9E2B273E61ED009794EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7E9E29273E61ED009794EE /* LaunchScreen.storyboard */; };
+		3C7E9E30273E61ED009794EE /* Goout-watchapp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3C7E9E2F273E61ED009794EE /* Goout-watchapp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C7E9E36273E61ED009794EE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7E9E34273E61ED009794EE /* Interface.storyboard */; };
+		3C7E9E38273E61EE009794EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7E9E37273E61EE009794EE /* Assets.xcassets */; };
+		3C7E9E3E273E61EE009794EE /* Goout-watchapp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C7E9E3D273E61EE009794EE /* Goout-watchapp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C7E9E43273E61EE009794EE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7E9E42273E61EE009794EE /* InterfaceController.swift */; };
+		3C7E9E45273E61EE009794EE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7E9E44273E61EE009794EE /* ExtensionDelegate.swift */; };
+		3C7E9E47273E61EE009794EE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7E9E46273E61EE009794EE /* NotificationController.swift */; };
+		3C7E9E49273E61EE009794EE /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7E9E48273E61EE009794EE /* ComplicationController.swift */; };
+		3C7E9E4B273E61F0009794EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7E9E4A273E61F0009794EE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C7E9E31273E61ED009794EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C7E9E13273E61E7009794EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7E9E2E273E61ED009794EE;
+			remoteInfo = "Goout-watchapp WatchKit App";
+		};
+		3C7E9E3F273E61EE009794EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C7E9E13273E61E7009794EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7E9E3C273E61EE009794EE;
+			remoteInfo = "Goout-watchapp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C7E9E53273E61F0009794EE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3C7E9E3E273E61EE009794EE /* Goout-watchapp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7E9E57273E61F0009794EE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3C7E9E30273E61ED009794EE /* Goout-watchapp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C7E9E1B273E61E7009794EE /* Goout-watchapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goout-watchapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7E9E1E273E61E7009794EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C7E9E20273E61E7009794EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C7E9E22273E61E7009794EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C7E9E25273E61E7009794EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C7E9E27273E61ED009794EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C7E9E2A273E61ED009794EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C7E9E2C273E61ED009794EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7E9E2F273E61ED009794EE /* Goout-watchapp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goout-watchapp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7E9E35273E61ED009794EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3C7E9E37273E61EE009794EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C7E9E3D273E61EE009794EE /* Goout-watchapp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Goout-watchapp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7E9E42273E61EE009794EE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3C7E9E44273E61EE009794EE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3C7E9E46273E61EE009794EE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3C7E9E48273E61EE009794EE /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3C7E9E4A273E61F0009794EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C7E9E4C273E61F0009794EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7E9E4D273E61F0009794EE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C7E9E18273E61E7009794EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7E9E3A273E61EE009794EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C7E9E12273E61E7009794EE = {
+			isa = PBXGroup;
+			children = (
+				3C7E9E1D273E61E7009794EE /* Goout-watchapp */,
+				3C7E9E33273E61ED009794EE /* Goout-watchapp WatchKit App */,
+				3C7E9E41273E61EE009794EE /* Goout-watchapp WatchKit Extension */,
+				3C7E9E1C273E61E7009794EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C7E9E1C273E61E7009794EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C7E9E1B273E61E7009794EE /* Goout-watchapp.app */,
+				3C7E9E2F273E61ED009794EE /* Goout-watchapp WatchKit App.app */,
+				3C7E9E3D273E61EE009794EE /* Goout-watchapp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7E9E1D273E61E7009794EE /* Goout-watchapp */ = {
+			isa = PBXGroup;
+			children = (
+				3C7E9E1E273E61E7009794EE /* AppDelegate.swift */,
+				3C7E9E20273E61E7009794EE /* SceneDelegate.swift */,
+				3C7E9E22273E61E7009794EE /* ViewController.swift */,
+				3C7E9E24273E61E7009794EE /* Main.storyboard */,
+				3C7E9E27273E61ED009794EE /* Assets.xcassets */,
+				3C7E9E29273E61ED009794EE /* LaunchScreen.storyboard */,
+				3C7E9E2C273E61ED009794EE /* Info.plist */,
+			);
+			path = "Goout-watchapp";
+			sourceTree = "<group>";
+		};
+		3C7E9E33273E61ED009794EE /* Goout-watchapp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3C7E9E34273E61ED009794EE /* Interface.storyboard */,
+				3C7E9E37273E61EE009794EE /* Assets.xcassets */,
+			);
+			path = "Goout-watchapp WatchKit App";
+			sourceTree = "<group>";
+		};
+		3C7E9E41273E61EE009794EE /* Goout-watchapp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C7E9E42273E61EE009794EE /* InterfaceController.swift */,
+				3C7E9E44273E61EE009794EE /* ExtensionDelegate.swift */,
+				3C7E9E46273E61EE009794EE /* NotificationController.swift */,
+				3C7E9E48273E61EE009794EE /* ComplicationController.swift */,
+				3C7E9E4A273E61F0009794EE /* Assets.xcassets */,
+				3C7E9E4C273E61F0009794EE /* Info.plist */,
+				3C7E9E4D273E61F0009794EE /* PushNotificationPayload.apns */,
+			);
+			path = "Goout-watchapp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C7E9E1A273E61E7009794EE /* Goout-watchapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7E9E58273E61F0009794EE /* Build configuration list for PBXNativeTarget "Goout-watchapp" */;
+			buildPhases = (
+				3C7E9E17273E61E7009794EE /* Sources */,
+				3C7E9E18273E61E7009794EE /* Frameworks */,
+				3C7E9E19273E61E7009794EE /* Resources */,
+				3C7E9E57273E61F0009794EE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C7E9E32273E61ED009794EE /* PBXTargetDependency */,
+			);
+			name = "Goout-watchapp";
+			productName = "Goout-watchapp";
+			productReference = 3C7E9E1B273E61E7009794EE /* Goout-watchapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C7E9E2E273E61ED009794EE /* Goout-watchapp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7E9E54273E61F0009794EE /* Build configuration list for PBXNativeTarget "Goout-watchapp WatchKit App" */;
+			buildPhases = (
+				3C7E9E2D273E61ED009794EE /* Resources */,
+				3C7E9E53273E61F0009794EE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C7E9E40273E61EE009794EE /* PBXTargetDependency */,
+			);
+			name = "Goout-watchapp WatchKit App";
+			productName = "Goout-watchapp WatchKit App";
+			productReference = 3C7E9E2F273E61ED009794EE /* Goout-watchapp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3C7E9E3C273E61EE009794EE /* Goout-watchapp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7E9E50273E61F0009794EE /* Build configuration list for PBXNativeTarget "Goout-watchapp WatchKit Extension" */;
+			buildPhases = (
+				3C7E9E39273E61EE009794EE /* Sources */,
+				3C7E9E3A273E61EE009794EE /* Frameworks */,
+				3C7E9E3B273E61EE009794EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Goout-watchapp WatchKit Extension";
+			productName = "Goout-watchapp WatchKit Extension";
+			productReference = 3C7E9E3D273E61EE009794EE /* Goout-watchapp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C7E9E13273E61E7009794EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3C7E9E1A273E61E7009794EE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3C7E9E2E273E61ED009794EE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3C7E9E3C273E61EE009794EE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 3C7E9E16273E61E7009794EE /* Build configuration list for PBXProject "Goout-watchapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C7E9E12273E61E7009794EE;
+			productRefGroup = 3C7E9E1C273E61E7009794EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C7E9E1A273E61E7009794EE /* Goout-watchapp */,
+				3C7E9E2E273E61ED009794EE /* Goout-watchapp WatchKit App */,
+				3C7E9E3C273E61EE009794EE /* Goout-watchapp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C7E9E19273E61E7009794EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7E9E2B273E61ED009794EE /* LaunchScreen.storyboard in Resources */,
+				3C7E9E28273E61ED009794EE /* Assets.xcassets in Resources */,
+				3C7E9E26273E61E7009794EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7E9E2D273E61ED009794EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7E9E38273E61EE009794EE /* Assets.xcassets in Resources */,
+				3C7E9E36273E61ED009794EE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7E9E3B273E61EE009794EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7E9E4B273E61F0009794EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C7E9E17273E61E7009794EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7E9E23273E61E7009794EE /* ViewController.swift in Sources */,
+				3C7E9E1F273E61E7009794EE /* AppDelegate.swift in Sources */,
+				3C7E9E21273E61E7009794EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7E9E39273E61EE009794EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7E9E47273E61EE009794EE /* NotificationController.swift in Sources */,
+				3C7E9E49273E61EE009794EE /* ComplicationController.swift in Sources */,
+				3C7E9E45273E61EE009794EE /* ExtensionDelegate.swift in Sources */,
+				3C7E9E43273E61EE009794EE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C7E9E32273E61ED009794EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C7E9E2E273E61ED009794EE /* Goout-watchapp WatchKit App */;
+			targetProxy = 3C7E9E31273E61ED009794EE /* PBXContainerItemProxy */;
+		};
+		3C7E9E40273E61EE009794EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C7E9E3C273E61EE009794EE /* Goout-watchapp WatchKit Extension */;
+			targetProxy = 3C7E9E3F273E61EE009794EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C7E9E24273E61E7009794EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7E9E25273E61E7009794EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C7E9E29273E61ED009794EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7E9E2A273E61ED009794EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3C7E9E34273E61ED009794EE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7E9E35273E61ED009794EE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C7E9E4E273E61F0009794EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C7E9E4F273E61F0009794EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3C7E9E51273E61F0009794EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Goout-watchapp WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Goout-watchapp WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esprit.Goout-watchapp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3C7E9E52273E61F0009794EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Goout-watchapp WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Goout-watchapp WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esprit.Goout-watchapp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3C7E9E55273E61F0009794EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Goout_watchapp_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Goout-watchapp WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "esprit.Goout-watchapp";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esprit.Goout-watchapp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3C7E9E56273E61F0009794EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Goout_watchapp_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Goout-watchapp WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "esprit.Goout-watchapp";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esprit.Goout-watchapp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3C7E9E59273E61F0009794EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Goout-watchapp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esprit.Goout-watchapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C7E9E5A273E61F0009794EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Goout-watchapp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esprit.Goout-watchapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C7E9E16273E61E7009794EE /* Build configuration list for PBXProject "Goout-watchapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7E9E4E273E61F0009794EE /* Debug */,
+				3C7E9E4F273E61F0009794EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7E9E50273E61F0009794EE /* Build configuration list for PBXNativeTarget "Goout-watchapp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7E9E51273E61F0009794EE /* Debug */,
+				3C7E9E52273E61F0009794EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7E9E54273E61F0009794EE /* Build configuration list for PBXNativeTarget "Goout-watchapp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7E9E55273E61F0009794EE /* Debug */,
+				3C7E9E56273E61F0009794EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7E9E58273E61F0009794EE /* Build configuration list for PBXNativeTarget "Goout-watchapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7E9E59273E61F0009794EE /* Debug */,
+				3C7E9E5A273E61F0009794EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C7E9E13273E61E7009794EE /* Project object */;
+}
